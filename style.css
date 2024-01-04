@@ -10,7 +10,7 @@ body {
 }
 
 header, footer {
-    background-color: #3498db;
+    background-color: rgb(0, 224, 93);
     color: #ffffff;
     padding: 10px 0;
     text-align: center;
