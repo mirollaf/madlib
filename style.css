@@ -2,6 +2,10 @@ body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
+    background-image: url('https://people.com/thmb/p0DQgvSWRRCuSSolFq6zZmRbY5M=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():focal(919x625:921x627)/australia-a417a5c466274aaa873fe8e1c7be794e.jpg');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
 }
 
 .container {
@@ -9,14 +13,17 @@ body {
     margin: 0 auto;
 }
 
-header, footer {
-    background-color: rgb(0, 224, 93);
-    color: #ffffff;
-    padding: 10px 0;
-    text-align: center;
-}
+.mirolla {
+    background-color: #750e0e;
+        color: #fff;
+        padding: 10px 0;
+        text-align: center;
+    }
+
 
 footer {
+    background-color: #ac0009;
+    color: #fff;  
     position: fixed;
     bottom: 0;
     width: 100%;
@@ -25,6 +32,11 @@ footer {
 #madLibOutput {
     padding: 20px;
     text-align: center;
-}
+    color: white;
+    line-height: 4;
+    font-family: 'Lora', serif;
+    font-size: 25px;
+    text-shadow: 1px 1px 2px rgb(219, 0, 0), 0 0 1em rgb(211, 29, 29), 0 0 0.2em blue;
+
 
 /* Add more styles based on your creativity and design preferences */
